@@ -4628,7 +4628,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "myparts:0836149012"
 			(at 207.01 40.64 0)
 			(effects
 				(font

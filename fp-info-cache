@@ -1,4 +1,4 @@
-23040025314201012
+23045277921477263
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63412,13 +63412,6 @@ Yellow 5381 Series LED
 0
 2
 2
-Library
-TE_6469028-1
-
-
-0
-60
-60
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -94394,3 +94387,31 @@ Varistor VF
 0
 2
 2
+myparts
+0836149012
+25-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.77x2.84mm, pin-PCB-offset 4.9399999999999995mm, distance of mounting holes 47.1mm, distance of mounting holes to PCB edge 7.4799999999999995mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+25-pin D-Sub connector horizontal angled 90deg THT female pitch 2.77x2.84mm pin-PCB-offset 4.9399999999999995mm mounting-holes-distance 47.1mm mounting-hole-offset 47.1mm
+0
+27
+27
+myparts
+CONN_F15-26P135G0-5979_MOL
+
+
+0
+26
+26
+myparts
+MOLEX_39301022
+
+
+0
+2
+2
+myparts
+TE_6469028-1
+
+
+0
+60
+60
