@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -181,7 +187,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -208,7 +216,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -442,6 +455,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -495,7 +509,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://NSLS-II.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -652,8 +666,48 @@
       "zuDFE Connectors"
     ],
     [
-      "dea95122-986e-41c8-b99e-e429cc6f4cd5",
-      "DAC"
+      "d1842e08-6ad7-4891-bdb3-3a3a498e2a30",
+      "regulators"
+    ],
+    [
+      "68fa8dde-6b87-4418-ab24-6dd6792cf3f7",
+      "channel"
+    ],
+    [
+      "ee7775f8-818d-4b39-ac35-648c0c49495f",
+      "dcct connector"
+    ],
+    [
+      "7f66daf3-2c6a-4079-b329-460a2fc5540f",
+      "+15v -15v DCCT Regulators"
+    ],
+    [
+      "753e7fd4-9197-44af-8c09-bb592cfd6a42",
+      "+15v -15v PSC Regulators"
+    ],
+    [
+      "1b70a4be-91de-4da8-8bea-71377ec1f51c",
+      "+5VA regulator"
+    ],
+    [
+      "81cf0a5d-1890-4a8a-965e-c38ae4a2ca5e",
+      "+3.3V regulator"
+    ],
+    [
+      "1b238acc-ea4e-4f24-9d93-142263e92f3e",
+      "+1.8V regulator"
+    ],
+    [
+      "4d03c65a-11e6-4d8a-8956-a18576278712",
+      "+2.5V regulator"
+    ],
+    [
+      "71c60af7-80bf-4dda-a256-33ed6124b6e1",
+      "+5VD regulator"
+    ],
+    [
+      "6ef03409-1029-4aa2-94fa-2110fe7db198",
+      "vi_monitor"
     ]
   ],
   "text_variables": {}
