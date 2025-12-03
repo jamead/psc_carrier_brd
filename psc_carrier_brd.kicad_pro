@@ -445,7 +445,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -617,7 +617,7 @@
       "field_names": [],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
-      "intersheets_ref_short": false,
+      "intersheets_ref_short": true,
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
@@ -671,11 +671,11 @@
     ],
     [
       "68fa8dde-6b87-4418-ab24-6dd6792cf3f7",
-      "channel"
+      "Ch1 Daughterboard"
     ],
     [
       "ee7775f8-818d-4b39-ac35-648c0c49495f",
-      "dcct connector"
+      "DCCT connector"
     ],
     [
       "7f66daf3-2c6a-4079-b329-460a2fc5540f",
@@ -708,7 +708,79 @@
     [
       "6ef03409-1029-4aa2-94fa-2110fe7db198",
       "vi_monitor"
+    ],
+    [
+      "507954ec-02e9-46c0-a919-b9e1fc42de5f",
+      "Ch1 PS Connector"
+    ],
+    [
+      "9ce9c2c4-cc81-44b8-8079-482e57213d61",
+      "Ch1 Burden Resistor"
+    ],
+    [
+      "9ed33170-dc63-4493-90d5-5a0ea9d80229",
+      "Ch2 Burden Resistor"
+    ],
+    [
+      "79ccc009-8b32-4834-80e8-facad3ab4620",
+      "Ch2 Daughterboard"
+    ],
+    [
+      "81f88550-83e3-4fa8-bdcb-5b1e15f2b3a9",
+      "Ch2 PS Connector"
+    ],
+    [
+      "06895ba2-0dba-4ca0-bd23-a9fa74452504",
+      "Ch3 Burden Resistor"
+    ],
+    [
+      "66704ae2-4e31-439d-ae4e-acdb607106a4",
+      "Ch3 Daughterboard"
+    ],
+    [
+      "f9b49ffc-0448-499b-a1fa-488e5d512990",
+      "Ch3 PS Connector"
+    ],
+    [
+      "34ed6f92-cccc-48eb-b305-3dcd35c3cab7",
+      "Ch4 Burden Resistor"
+    ],
+    [
+      "bff48835-53bb-47a9-9e6c-9af939cbdeca",
+      "Ch4 Daughterboard"
+    ],
+    [
+      "270c0463-7903-4545-8f56-97f30d2fa241",
+      "Ch4 PS Connector"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "CEE_CME": "NA",
+    "CEE_CME_DATE": "NA",
+    "CHECKED_BY": "T. Chiesa",
+    "CHECKED_BY_DATE": "11/21/25",
+    "DEPARTMENT_CHAIRMAN": "NA",
+    "DEPARTMENT_CHAIRMAN_DATE": "NA",
+    "DESIGN_APPROVAL": "T. Chiesa",
+    "DESIGN_APPROVAL_DATE": "",
+    "DIVISION_HEAD": "NA",
+    "DIVISION_HEAD_DATE": "NA",
+    "DRAWING_NUMBER": "LT-EL-",
+    "DRAWN_BY": "J. Mead",
+    "DRAWN_BY_DATE": "1/4/24",
+    "ENG_PHY_APPROVAL": "J. Mead",
+    "ENG_PHY_APPROVAL_DATE": "11/21/25",
+    "GROUP_LEADER": "H. Dave",
+    "GROUP_LEADER_DATE": "",
+    "INITIAL_RELEASE_DATE": "11/21/2025",
+    "QA": "NA",
+    "QA_CATEGORY": "A3",
+    "QA_DATE": "NA",
+    "REVB_ECN_NO": "",
+    "REVB_RELEASE_DATE": "",
+    "SAFETY_RSC": "NA",
+    "SAFETY_RSC_DATE": "NA",
+    "SCALE": "N.A.",
+    "WEIGHT": "N.A."
+  }
 }
