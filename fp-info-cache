@@ -1,4 +1,4 @@
-26222313427278295
+26225818293144963
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104258,6 +104258,13 @@ EEE-FTH101XAP
 2
 2
 myparts
+COILCRAFT_MSS1048
+
+
+0
+2
+2
+myparts
 CONN_F15-26P135G0-5979_MOL
 
 
@@ -104292,6 +104299,13 @@ MSOP-16_MS
 0
 16
 16
+myparts
+QFN-24-4EP_4x4mm_P0.5mm_EP1.125x1.125mm
+QFN, 24 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=278), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+32
+28
 myparts
 RESC1220X70N
 

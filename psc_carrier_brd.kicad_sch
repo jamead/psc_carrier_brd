@@ -424,6 +424,16 @@
 		)
 		(uuid "68c4dded-3d20-44ad-9881-d3553402cc32")
 	)
+	(bus
+		(pts
+			(xy 62.23 243.84) (xy 83.82 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb2afab-5e87-4bc7-bde9-be0a2069ec9c")
+	)
 	(wire
 		(pts
 			(xy 335.28 196.85) (xy 335.28 195.58)
@@ -483,6 +493,16 @@
 			(type default)
 		)
 		(uuid "87ff0ccf-76b3-45d3-bbc3-ced494f924bc")
+	)
+	(wire
+		(pts
+			(xy 260.35 125.73) (xy 313.69 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a261e42-16c2-48be-b963-2581cd0682fb")
 	)
 	(bus
 		(pts
@@ -603,6 +623,16 @@
 			(type default)
 		)
 		(uuid "c064be3b-a93a-4671-bb6a-bff92cb4da81")
+	)
+	(wire
+		(pts
+			(xy 260.35 128.27) (xy 313.69 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c147d866-de2a-4a76-9f8e-5a585cee0253")
 	)
 	(wire
 		(pts
@@ -733,6 +763,16 @@
 			(type default)
 		)
 		(uuid "f97dd47f-6240-4769-bcff-43771f8f6643")
+	)
+	(bus
+		(pts
+			(xy 195.58 243.84) (xy 220.98 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa144e24-6eff-4667-b083-763eb32d82c3")
 	)
 	(bus
 		(pts
@@ -2086,6 +2126,36 @@
 				(justify left)
 			)
 		)
+		(pin "dcct_flt_buf{12 34 56 78}" input
+			(at 220.98 243.84 180)
+			(uuid "fed496e2-3423-44bf-a7e0-134d2db8e3a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "i2c_sda" input
+			(at 260.35 128.27 0)
+			(uuid "126f5e76-b767-47e0-856d-3ed762d3392e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "i2c_scl" input
+			(at 260.35 125.73 0)
+			(uuid "1f5e4024-3eab-4903-bf80-a821759ae71f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "psc_carrier_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
@@ -2603,6 +2673,68 @@
 		)
 	)
 	(sheet
+		(at 83.82 238.76)
+		(size 111.76 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "8c8c46d7-29e7-4d33-89bb-81cd6686c31c")
+		(property "Sheetname" "DCCT Fault Logic"
+			(at 83.82 238.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dcct_fault.kicad_sch"
+			(at 83.82 251.4096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "dcct_flt{12 34 56 78}" input
+			(at 83.82 243.84 180)
+			(uuid "676ccfdb-6504-4c6d-916d-b7cf0ab3aa69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "dcct_flt_buf{12 34 56 78}" output
+			(at 195.58 243.84 0)
+			(uuid "5b537658-437c-4585-9559-86047e4bc14a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "psc_carrier_brd"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 82.55 40.64)
 		(size 49.53 7.62)
 		(exclude_from_sim no)
@@ -2909,8 +3041,8 @@
 		)
 	)
 	(sheet
-		(at 331.47 127.635)
-		(size 53.975 45.085)
+		(at 313.69 113.03)
+		(size 54.61 45.72)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2925,7 +3057,7 @@
 		)
 		(uuid "d1842e08-6ad7-4891-bdb3-3a3a498e2a30")
 		(property "Sheetname" "regulators"
-			(at 331.47 126.9234 0)
+			(at 313.69 112.3184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2934,12 +3066,32 @@
 			)
 		)
 		(property "Sheetfile" "regs.kicad_sch"
-			(at 331.47 173.3046 0)
+			(at 313.69 158.6996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "i2c_scl" input
+			(at 313.69 125.73 180)
+			(uuid "5cb66ec1-85fc-4e26-9ab0-02523cd45f15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "i2c_sda" input
+			(at 313.69 128.27 180)
+			(uuid "7c8f3869-4a0d-48da-8064-91eecf19bfc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -3024,7 +3176,7 @@
 				(justify right)
 			)
 		)
-		(pin "flt{12 34 56 78}" input
+		(pin "flt{12 34 56 78}" output
 			(at 62.23 243.84 0)
 			(uuid "feed6739-a4eb-4da3-b2be-b0fb7c9e6f19")
 			(effects

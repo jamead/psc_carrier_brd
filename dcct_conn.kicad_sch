@@ -1663,7 +1663,21 @@
 					(hide yes)
 				)
 			)
-			(symbol "+15V_DCCT_0_0"
+			(symbol "+15V_DCCT_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "+15V_DCCT_1_0"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1680,20 +1694,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(symbol "+15V_DCCT_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
@@ -1806,12 +1806,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b846573-c480-4016-b994-35691f6475f2")
-	)
-	(junction
-		(at 90.17 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12dcde24-3872-402d-a5ae-4ae79e7121c2")
 	)
 	(junction
 		(at 104.14 120.65)
@@ -2067,16 +2061,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 125.73) (xy 90.17 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "168d2ee4-be62-40f5-9bfc-bae686b07797")
-	)
-	(wire
-		(pts
 			(xy 90.17 77.47) (xy 142.24 77.47)
 		)
 		(stroke
@@ -2104,6 +2088,16 @@
 			(type default)
 		)
 		(uuid "1a7fb55b-cc0e-495b-a8e5-22c70be79318")
+	)
+	(wire
+		(pts
+			(xy 90.17 85.09) (xy 167.64 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d991521-1108-4122-970f-8f0386ee59a1")
 	)
 	(wire
 		(pts
@@ -2334,6 +2328,16 @@
 			(type default)
 		)
 		(uuid "5f10206a-e906-432d-ae51-d9dbba36f374")
+	)
+	(wire
+		(pts
+			(xy 90.17 125.73) (xy 153.67 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62558074-ac61-46fd-9c02-c8c58dc37d68")
 	)
 	(wire
 		(pts
@@ -2597,13 +2601,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 125.73) (xy 153.67 125.73)
+			(xy 167.64 85.09) (xy 175.26 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9cde2cd-b36e-4f9c-819e-d19afff5bf12")
+		(uuid "dc5080e2-77cb-41dd-b5b9-bee2de426249")
 	)
 	(bus
 		(pts
@@ -2614,16 +2618,6 @@
 			(type default)
 		)
 		(uuid "dc534ec0-2ffb-4f96-b768-728f9973b88e")
-	)
-	(wire
-		(pts
-			(xy 90.17 85.09) (xy 167.64 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc7f462e-d0f3-4b84-8dc9-1119f07eeb48")
 	)
 	(wire
 		(pts
@@ -2694,16 +2688,6 @@
 			(type default)
 		)
 		(uuid "f2557f50-dc76-465a-8043-7748b6935f30")
-	)
-	(wire
-		(pts
-			(xy 167.64 85.09) (xy 175.26 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f27e56d0-680a-40b7-843e-609ed0e53a1f")
 	)
 	(bus
 		(pts
@@ -3024,7 +3008,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03efdc42-f152-4470-bbda-f75f9c2b0850")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 76.2 105.4099 0)
 			(effects
 				(font
@@ -3171,7 +3155,7 @@
 		(instances
 			(project "psc_carrier_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/ee7775f8-818d-4b39-ac35-648c0c49495f"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -3187,7 +3171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14887981-72d6-417e-bbae-b469de889803")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 93.98 152.4 0)
 			(effects
 				(font
@@ -3237,7 +3221,7 @@
 		(instances
 			(project ""
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/ee7775f8-818d-4b39-ac35-648c0c49495f"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3253,7 +3237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d2aa6b6-ac61-4580-acb9-74a284102ca4")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 104.14 74.93 0)
 			(effects
 				(font
@@ -3303,7 +3287,7 @@
 		(instances
 			(project ""
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/ee7775f8-818d-4b39-ac35-648c0c49495f"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3319,7 +3303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8397215-ec3c-48a6-aaf3-2177ca9d53b9")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 93.98 72.39 0)
 			(effects
 				(font
@@ -3369,7 +3353,7 @@
 		(instances
 			(project ""
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/ee7775f8-818d-4b39-ac35-648c0c49495f"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
