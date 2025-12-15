@@ -64283,8 +64283,8 @@
 		(uuid "d556ccf5-6bb6-4c82-babd-e208e452557e")
 	)
 	(gr_line
-		(start 63.7 86.08)
-		(end 305 86.08)
+		(start 63.7 80)
+		(end 305 80)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -64303,7 +64303,7 @@
 		(uuid "1bee778e-2561-438c-aad1-43c76a9d28c9")
 	)
 	(gr_line
-		(start 305 86.08)
+		(start 305 80)
 		(end 305 335)
 		(stroke
 			(width 0.05)
@@ -64334,7 +64334,7 @@
 	)
 	(gr_line
 		(start 63.7 335)
-		(end 63.7 86.08)
+		(end 63.7 80)
 		(stroke
 			(width 0.05)
 			(type solid)
