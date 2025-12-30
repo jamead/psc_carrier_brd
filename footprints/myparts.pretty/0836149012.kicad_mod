@@ -1,7 +1,7 @@
 (footprint "0836149012"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "25-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.77x2.84mm, pin-PCB-offset 4.9399999999999995mm, distance of mounting holes 47.1mm, distance of mounting holes to PCB edge 7.4799999999999995mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
 	(tags "25-pin D-Sub connector horizontal angled 90deg THT female pitch 2.77x2.84mm pin-PCB-offset 4.9399999999999995mm mounting-holes-distance 47.1mm mounting-hole-offset 47.1mm")
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0.08 -1.27 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "60880a89-1efc-4d78-85cd-5e37366f4ceb")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -72,20 +60,9 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "dfe183a4-cb90-440c-9d2c-ab110ae4819c")
-	)
-	(fp_rect
-		(start -8.636 -1.778)
-		(end 8.636 15.494)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "09771b4c-53e2-43f8-97b2-ede062727ebf")
 	)
 	(fp_rect
 		(start -14.478 -1.778)
@@ -94,9 +71,20 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "8480e7d3-e163-4df2-bf7d-604ef914ed6d")
+	)
+	(fp_rect
+		(start -8.636 -1.778)
+		(end 8.636 15.494)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "09771b4c-53e2-43f8-97b2-ede062727ebf")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -0.508 6.477 180)
@@ -325,6 +313,7 @@
 		(remove_unused_layers no)
 		(uuid "56f732f2-be09-4e99-969a-b1c32e4b30d4")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/3dmodels/836149012.step"
 		(offset
 			(xyz 6.35 -8.89 8.255)

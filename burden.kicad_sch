@@ -871,12 +871,13 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Burden"
 			(at 150.495 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "myparts:burden"
@@ -897,7 +898,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Burden Resistor Daughterboard"
+			(at 140.97 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "BNL"
+			(at 140.97 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "BNL"
 			(at 140.97 74.93 0)
 			(effects
 				(font

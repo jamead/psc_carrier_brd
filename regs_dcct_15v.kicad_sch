@@ -5,6 +5,113 @@
 	(uuid "f171b4a1-b355-4768-864f-c50a7e1806b0")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -127,6 +234,155 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -1281,131 +1537,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1795,6 +1926,107 @@
 				)
 			)
 			(symbol "+18V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "psc:+5.0V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5.0V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-15V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5.0V_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "+5.0V_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
@@ -3123,6 +3355,12 @@
 		(uuid "00253733-d2ff-4139-bec3-5b5e88908fb9")
 	)
 	(junction
+		(at 53.34 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09edccda-30c8-4713-a8d7-473cee6c0a50")
+	)
+	(junction
 		(at 87.63 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3165,6 +3403,12 @@
 		(uuid "3fbb9502-4d49-4b1c-ab56-9e8c77c4417d")
 	)
 	(junction
+		(at 231.14 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47964a82-2d4f-4d80-afe3-d787c62acdff")
+	)
+	(junction
 		(at 195.58 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3199,12 +3443,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82fca5dc-b0a9-45a1-a02e-28f3492ae776")
-	)
-	(junction
-		(at 123.19 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f496da3-7858-43e7-9b1c-c0ccbce017ff")
 	)
 	(junction
 		(at 190.5 153.67)
@@ -3243,10 +3481,10 @@
 		(uuid "dc44bf0d-22b2-4bef-998d-dabc744295e7")
 	)
 	(junction
-		(at 53.34 109.22)
+		(at 123.19 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e4008098-0e89-4f87-aafa-93ade2614cd4")
+		(uuid "e3deb257-7aa5-49bc-89f0-097c58b8d872")
 	)
 	(junction
 		(at 154.94 34.29)
@@ -3259,6 +3497,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e863e440-4408-44e5-ae7a-f8c49465a127")
+	)
+	(junction
+		(at 242.57 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eef76cae-65d9-431c-b5e6-bd81a5a39688")
 	)
 	(junction
 		(at 151.13 109.22)
@@ -3284,6 +3528,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 109.22) (xy 53.34 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e78e1d-b8dc-4c76-b43f-8879abc1cec9")
+	)
+	(wire
+		(pts
 			(xy 123.19 43.18) (xy 123.19 44.45)
 		)
 		(stroke
@@ -3301,16 +3555,6 @@
 			(type default)
 		)
 		(uuid "079b1598-52e2-4d81-9a8f-235af4635d6b")
-	)
-	(wire
-		(pts
-			(xy 200.66 25.4) (xy 200.66 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "083b9543-c851-4d6e-8457-6f88ca95c721")
 	)
 	(wire
 		(pts
@@ -3354,6 +3598,26 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 118.11) (xy 123.19 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b582838-9f71-472d-81d8-52a5bc756f0c")
+	)
+	(wire
+		(pts
+			(xy 242.57 34.29) (xy 242.57 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bcb19ac-68aa-4858-9f0f-6088e5881d77")
+	)
+	(wire
+		(pts
 			(xy 110.49 36.83) (xy 114.3 36.83)
 		)
 		(stroke
@@ -3361,16 +3625,6 @@
 			(type default)
 		)
 		(uuid "1d7f3a23-b110-4f29-a7ac-1a33689c2cf5")
-	)
-	(wire
-		(pts
-			(xy 53.34 119.38) (xy 53.34 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1db86035-8583-4063-aede-4708f6be8d7b")
 	)
 	(wire
 		(pts
@@ -3474,16 +3728,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 109.22) (xy 123.19 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38e3087f-0ff3-4687-89aa-617a2f57933a")
-	)
-	(wire
-		(pts
 			(xy 114.3 44.45) (xy 123.19 44.45)
 		)
 		(stroke
@@ -3491,6 +3735,16 @@
 			(type default)
 		)
 		(uuid "3a07fbdb-ad79-4772-b70f-21cecff205a8")
+	)
+	(wire
+		(pts
+			(xy 231.14 109.22) (xy 242.57 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "407ebefb-686c-45f2-9f37-f8ecc7dbf288")
 	)
 	(wire
 		(pts
@@ -3551,16 +3805,6 @@
 			(type default)
 		)
 		(uuid "4de8b8b9-df5d-4b9b-8f7e-c2c11977e485")
-	)
-	(wire
-		(pts
-			(xy 53.34 109.22) (xy 66.04 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50888e22-1a3c-4d06-bd9b-0ec788966502")
 	)
 	(wire
 		(pts
@@ -3654,13 +3898,23 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 34.29) (xy 200.66 34.29)
+			(xy 195.58 34.29) (xy 223.52 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "625f9427-1905-450d-a92f-d6a1ffe333bf")
+	)
+	(wire
+		(pts
+			(xy 123.19 109.22) (xy 123.19 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62c6bf30-4c5a-470a-92f5-6dd349affd25")
 	)
 	(wire
 		(pts
@@ -3671,6 +3925,36 @@
 			(type default)
 		)
 		(uuid "63ee124f-92c9-4d70-9398-877c2aadf185")
+	)
+	(wire
+		(pts
+			(xy 251.46 30.48) (xy 251.46 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e43258-b56c-4b94-bab0-c812a2a0e3dd")
+	)
+	(wire
+		(pts
+			(xy 231.14 34.29) (xy 242.57 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "673ad883-b048-44e5-bb4d-5992ae9e53af")
+	)
+	(wire
+		(pts
+			(xy 53.34 118.11) (xy 53.34 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68ccc353-c424-4bb3-a4dd-35fe7bb9b950")
 	)
 	(wire
 		(pts
@@ -3704,7 +3988,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 109.22) (xy 139.7 109.22)
+			(xy 114.3 109.22) (xy 123.19 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3804,6 +4088,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 109.22) (xy 231.14 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d5cbf46-88ae-484c-91f4-cf3ed116e84e")
+	)
+	(wire
+		(pts
 			(xy 123.19 34.29) (xy 123.19 35.56)
 		)
 		(stroke
@@ -3854,6 +4148,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 109.22) (xy 231.14 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c98077-d142-4d8c-9227-a4848886b0ba")
+	)
+	(wire
+		(pts
 			(xy 110.49 34.29) (xy 123.19 34.29)
 		)
 		(stroke
@@ -3874,7 +4178,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 109.22) (xy 184.15 109.22)
+			(xy 179.07 109.22) (xy 212.09 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3984,16 +4288,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 119.38) (xy 123.19 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a17a7a3f-b26e-4001-b495-153cfa2576cb")
-	)
-	(wire
-		(pts
 			(xy 123.19 54.61) (xy 123.19 53.34)
 		)
 		(stroke
@@ -4044,6 +4338,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 109.22) (xy 66.04 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a781c51b-6f32-48a0-b0dc-781643a04251")
+	)
+	(wire
+		(pts
 			(xy 88.9 111.76) (xy 88.9 109.22)
 		)
 		(stroke
@@ -4051,16 +4355,6 @@
 			(type default)
 		)
 		(uuid "a7df331e-d8c5-4b8d-b9db-78bb7252d367")
-	)
-	(wire
-		(pts
-			(xy 53.34 109.22) (xy 53.34 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8f1c466-6964-4655-9640-701ea487df33")
 	)
 	(wire
 		(pts
@@ -4124,16 +4418,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 110.49) (xy 123.19 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4ec2433-501b-4bc7-84ce-09077162926a")
-	)
-	(wire
-		(pts
 			(xy 190.5 153.67) (xy 187.96 153.67)
 		)
 		(stroke
@@ -4154,13 +4438,33 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 100.33) (xy 184.15 109.22)
+			(xy 242.57 105.41) (xy 242.57 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7b77f89-badd-4bea-a6ae-ca25206b6d01")
+		(uuid "b95f55ff-e967-448a-a70f-3c7e018f8505")
+	)
+	(wire
+		(pts
+			(xy 123.19 109.22) (xy 139.7 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b96a7210-3681-4255-882f-6d80b72ffafb")
+	)
+	(wire
+		(pts
+			(xy 251.46 34.29) (xy 242.57 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b7eaa2-7bfb-484b-80ac-0a712a28f88d")
 	)
 	(wire
 		(pts
@@ -4322,6 +4626,16 @@
 		)
 		(uuid "13be56d5-846e-4987-afbf-01f921f82e7f")
 	)
+	(label "-15V_DCCT_uf"
+		(at 187.96 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54f4fa99-6e98-40a5-8975-568e60cd6234")
+	)
 	(label "+15V_DCCT_REG"
 		(at 204.47 43.18 0)
 		(effects
@@ -4351,6 +4665,16 @@
 			(justify left bottom)
 		)
 		(uuid "d9a96ec0-6b01-452a-8658-917a0d1e96d5")
+	)
+	(label "+15V_DCCT_uf"
+		(at 199.39 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7b9ab04-125d-4848-a62b-455c13174410")
 	)
 	(hierarchical_label "isense_+15v"
 		(shape input)
@@ -4392,7 +4716,7 @@
 				)
 			)
 		)
-		(property "Value" "LT6105"
+		(property "Value" "LT6106"
 			(at 200.66 138.3598 0)
 			(effects
 				(font
@@ -4418,7 +4742,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "36V Low Cost, High Side Current Sense, SOT-23-5"
+		(property "Description" "IC CURR SENSE 1 CIRCUIT TSOT23-5"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "2.01"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Analog Devices"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "LT6106CS5#TRMPBF"
 			(at 190.5 142.24 0)
 			(effects
 				(font
@@ -4562,7 +4913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 76.2 39.37 0)
 			(effects
 				(font
@@ -4577,6 +4928,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 76.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F"
+			(at 76.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
+			(at 76.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4863,72 +5241,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 187.96 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21b8a794-3de2-4691-99ff-bdf51afc5d0f")
-		(property "Reference" "#PWR0216"
-			(at 187.96 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 187.96 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 187.96 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17923345-4d2f-43ab-a6d2-c9d886ac539e")
-		)
-		(instances
-			(project "psc_carrier_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/d1842e08-6ad7-4891-bdb3-3a3a498e2a30/7a687100-ef1a-4869-9af0-65325fdcbe1f"
-					(reference "#PWR0216")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 123.19 39.37 0)
 		(unit 1)
@@ -4945,7 +5257,7 @@
 				)
 			)
 		)
-		(property "Value" "11.4K"
+		(property "Value" "11.5K"
 			(at 127 39.37 0)
 			(effects
 				(font
@@ -4971,7 +5283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "ERJ-2RKF1152X"
 			(at 123.19 39.37 0)
 			(effects
 				(font
@@ -4982,6 +5294,33 @@
 		)
 		(property "Tolerance" "1%"
 			(at 127 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
+			(at 123.19 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 123.19 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF1152X"
+			(at 123.19 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +5386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 1K OHM 1% 1/10W 0402"
 			(at 123.19 49.53 0)
 			(effects
 				(font
@@ -5058,6 +5397,33 @@
 		)
 		(property "Tolerance" "1%"
 			(at 127 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 123.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF1001X"
+			(at 123.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
+			(at 123.19 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5190,7 +5556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 100 OHM 1% 1/10W 0402"
 			(at 195.58 50.8 0)
 			(effects
 				(font
@@ -5201,6 +5567,33 @@
 		)
 		(property "Tolerance" "1%"
 			(at 199.39 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 195.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF1000X"
+			(at 195.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
+			(at 195.58 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5335,7 +5728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10UF 25V X5R 0603"
 			(at 139.7 113.03 0)
 			(effects
 				(font
@@ -5353,6 +5746,33 @@
 				(hide yes)
 			)
 		)
+		(property "MFG_PN" "CL10A106MA8NRNC"
+			(at 139.7 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".04"
+			(at 139.7 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Samsung"
+			(at 139.7 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a51f042-86a2-427a-b17e-ff1bf4cacfe9")
 		)
@@ -5363,6 +5783,101 @@
 			(project "psc_carrier_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/d1842e08-6ad7-4891-bdb3-3a3a498e2a30/7a687100-ef1a-4869-9af0-65325fdcbe1f"
 					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 215.9 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ed8ee3e-2cb8-4860-94db-234d26d42118")
+		(property "Reference" "F2"
+			(at 215.9 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Polyfuse"
+			(at 216.154 105.664 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "myparts:FUSE_SMDC300F&slash_24-2_LTF"
+			(at 220.98 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PTC RESET FUSE 24V 3A 2SMD"
+			(at 215.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Littlefuse"
+			(at 215.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ASMDC300F/24-2"
+			(at 215.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.77"
+			(at 215.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ce409c33-65b5-483d-8294-18b0b3ae5d07")
+		)
+		(pin "1"
+			(uuid "e8f2d6e3-9ff6-43b6-bac9-a779888f56bb")
+		)
+		(instances
+			(project "psc_carrier_brd"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/d1842e08-6ad7-4891-bdb3-3a3a498e2a30/7a687100-ef1a-4869-9af0-65325fdcbe1f"
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -5413,7 +5928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 166.37 38.1 0)
 			(effects
 				(font
@@ -5428,6 +5943,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 166.37 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F"
+			(at 166.37 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
+			(at 166.37 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5555,7 +6097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 100 OHM 1% 1/10W 0402"
 			(at 179.07 125.73 0)
 			(effects
 				(font
@@ -5566,6 +6108,33 @@
 		)
 		(property "Tolerance" "1%"
 			(at 182.88 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 179.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF1000X"
+			(at 179.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
+			(at 179.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5596,7 +6165,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3ca26d82-0746-42c3-ae06-d35454512fff")
 		(property "Reference" "R53"
 			(at 170.18 105.41 0)
@@ -5606,14 +6174,13 @@
 				)
 			)
 		)
-		(property "Value" "KRL6432E-M-R010-F-T1"
-			(at 171.4499 106.68 90)
+		(property "Value" "0.01"
+			(at 168.148 112.776 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "myparts:RES_6432_SUS"
@@ -5636,7 +6203,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 0.01 OHM 3W 2512 WIDE"
+			(at 176.53 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.71"
+			(at 176.53 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Susumu"
+			(at 176.53 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "KRL6432E-M-R010-F-T1"
 			(at 176.53 109.22 0)
 			(effects
 				(font
@@ -5705,7 +6299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 208.28 52.07 0)
 			(effects
 				(font
@@ -5720,6 +6314,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 208.28 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F"
+			(at 208.28 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
+			(at 208.28 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5965,7 +6586,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAP_EEFK_D8_PAN"
+		(property "Footprint" "myparts:CAP_EEFK_D8_PAN"
 			(at 52.07 35.56 0)
 			(effects
 				(font
@@ -5985,8 +6606,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP ALUM 100UF 20% 50V SMD"
 			(at 52.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 52.07 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "EEE-FTH101XAP"
+			(at 52.07 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.44"
+			(at 52.07 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6011,7 +6659,7 @@
 	)
 	(symbol
 		(lib_id "psc:EEE-FTH101XAP")
-		(at 53.34 110.49 270)
+		(at 53.34 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6019,7 +6667,7 @@
 		(dnp no)
 		(uuid "4f30c018-b568-4866-aae6-66de3705e218")
 		(property "Reference" "C61"
-			(at 49.53 115.0875 90)
+			(at 57.15 113.5125 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6028,7 +6676,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 49.53 112.5475 90)
+			(at 57.15 116.0525 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6036,8 +6684,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAP_EEFK_D8_PAN"
-			(at 53.34 110.49 0)
+		(property "Footprint" "myparts:CAP_EEFK_D8_PAN"
+			(at 53.34 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6047,7 +6695,7 @@
 			)
 		)
 		(property "Datasheet" "EEE-FTH101XAP"
-			(at 53.34 110.49 0)
+			(at 53.34 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6056,8 +6704,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 53.34 110.49 0)
+		(property "Description" "CAP ALUM 100UF 20% 50V SMD"
+			(at 53.34 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 53.34 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "EEE-FTH101XAP"
+			(at 53.34 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.44"
+			(at 53.34 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6075,6 +6750,72 @@
 			(project "psc_carrier_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/d1842e08-6ad7-4891-bdb3-3a3a498e2a30/7a687100-ef1a-4869-9af0-65325fdcbe1f"
 					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "psc:+5.0V")
+		(at 187.96 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "539e7fc6-a139-427f-b965-a8561086af45")
+		(property "Reference" "#PWR051"
+			(at 187.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5.0V"
+			(at 187.96 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 187.96 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0c40ad5-8699-4eea-9dfb-eb347d6e3cd6")
+		)
+		(instances
+			(project ""
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/d1842e08-6ad7-4891-bdb3-3a3a498e2a30/7a687100-ef1a-4869-9af0-65325fdcbe1f"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -6123,7 +6864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 100 OHM 1% 1/10W 0402"
 			(at 161.29 125.73 0)
 			(effects
 				(font
@@ -6134,6 +6875,33 @@
 		)
 		(property "Tolerance" "1%"
 			(at 165.1 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 161.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF1000X"
+			(at 161.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
+			(at 161.29 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6267,7 +7035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 191.77 125.73 0)
 			(effects
 				(font
@@ -6282,6 +7050,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
+			(at 191.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6301,7 +7096,7 @@
 	)
 	(symbol
 		(lib_id "psc:-15V_DCCT")
-		(at 184.15 100.33 0)
+		(at 231.14 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6310,7 +7105,7 @@
 		(fields_autoplaced yes)
 		(uuid "79cdaad9-9063-41ca-8382-912fcfc525f7")
 		(property "Reference" "#PWR0215"
-			(at 184.15 104.14 0)
+			(at 231.14 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6319,7 +7114,7 @@
 			)
 		)
 		(property "Value" "-15V_DCCT"
-			(at 184.15 95.25 0)
+			(at 231.14 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6327,7 +7122,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 100.33 0)
+			(at 231.14 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6336,7 +7131,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 100.33 0)
+			(at 231.14 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6345,7 +7140,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 184.15 100.33 0)
+			(at 231.14 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6567,6 +7362,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 227.33 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "828ce2b9-43bb-4edb-be82-c098cd0d65fb")
+		(property "Reference" "F1"
+			(at 227.33 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Polyfuse"
+			(at 227.584 30.734 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "myparts:FUSE_SMDC300F&slash_24-2_LTF"
+			(at 232.41 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PTC RESET FUSE 24V 3A 2SMD"
+			(at 227.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Littlefuse"
+			(at 227.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ASMDC300F/24-2"
+			(at 227.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.77"
+			(at 227.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff72419a-a74c-48f5-95cf-17b19f0814fc")
+		)
+		(pin "1"
+			(uuid "ef98c7df-1377-4d00-ab46-e9f14df1e433")
+		)
+		(instances
+			(project ""
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/d1842e08-6ad7-4891-bdb3-3a3a498e2a30/7a687100-ef1a-4869-9af0-65325fdcbe1f"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 53.34 119.38 0)
 		(unit 1)
@@ -6678,7 +7568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10UF 25V X5R 0603"
 			(at 154.94 38.1 0)
 			(effects
 				(font
@@ -6689,6 +7579,33 @@
 		)
 		(property "Voltage" "25V"
 			(at 159.258 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "CL10A106MA8NRNC"
+			(at 154.94 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".04"
+			(at 154.94 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Samsung"
+			(at 154.94 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6756,7 +7673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10UF 25V X5R 0603"
 			(at 66.04 114.3 0)
 			(effects
 				(font
@@ -6767,6 +7684,33 @@
 		)
 		(property "Voltage" "25V"
 			(at 70.358 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "CL10A106MA8NRNC"
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".04"
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Samsung"
+			(at 66.04 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6834,7 +7778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 190.5 158.75 0)
 			(effects
 				(font
@@ -6849,6 +7793,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 190.5 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F"
+			(at 190.5 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
+			(at 190.5 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6978,7 +7949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10UF 25V X5R 0603"
 			(at 64.77 39.37 0)
 			(effects
 				(font
@@ -6989,6 +7960,33 @@
 		)
 		(property "Voltage" "25V"
 			(at 69.088 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "CL10A106MA8NRNC"
+			(at 64.77 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".04"
+			(at 64.77 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Samsung"
+			(at 64.77 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7012,6 +8010,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 242.57 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "93798757-a4a0-4d8f-bf62-d7deeff32a15")
+		(property "Reference" "TP11"
+			(at 240.03 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${SHORT_NET_NAME(1)}"
+			(at 245.11 104.013 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 247.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "${DNP}" "${DNP}"
+			(at 242.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "N/A"
+			(at 242.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "N/A"
+			(at 242.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd5a3d90-5c1b-415a-9d53-c3fc177a5675")
+		)
+		(instances
+			(project "psc_carrier_brd"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/d1842e08-6ad7-4891-bdb3-3a3a498e2a30/7a687100-ef1a-4869-9af0-65325fdcbe1f"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:LT3015xQ-15")
 		(at 101.6 111.76 0)
 		(unit 1)
@@ -7029,7 +8121,7 @@
 				)
 			)
 		)
-		(property "Value" "LT3015xQ-15"
+		(property "Value" "LT3015EQ-15"
 			(at 101.6 104.14 0)
 			(effects
 				(font
@@ -7055,7 +8147,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-15V, 1.5A, Low Noise, Negative Linear Regulator with Precision Current Limit, TO-263-5"
+		(property "Description" "IC REG LINEAR -15V 1.5A DDPAK-5"
+			(at 101.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "6.46"
+			(at 101.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Analog Devices"
+			(at 101.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "LT3015EQ-15#PBF"
 			(at 101.6 111.76 0)
 			(effects
 				(font
@@ -7131,7 +8250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 4.99K OHM 1% 1/10W 0402"
 			(at 218.44 148.59 0)
 			(effects
 				(font
@@ -7142,6 +8261,33 @@
 		)
 		(property "Tolerance" "1%"
 			(at 222.25 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 218.44 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF4991X"
+			(at 218.44 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
+			(at 218.44 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7209,7 +8355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 77.47 114.3 0)
 			(effects
 				(font
@@ -7224,6 +8370,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 77.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F"
+			(at 77.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
+			(at 77.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7376,7 +8549,7 @@
 	)
 	(symbol
 		(lib_id "psc:T521X107M025ATE060")
-		(at 123.19 110.49 270)
+		(at 123.19 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7385,25 +8558,25 @@
 		(fields_autoplaced yes)
 		(uuid "a721b79f-ced2-416a-875c-204d85678784")
 		(property "Reference" "C66"
-			(at 127 112.5473 90)
+			(at 127 113.5125 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100uF"
-			(at 127 115.0873 90)
+			(at 127 116.0525 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "CAPMP7.6X4.3_4.3N_KEM"
-			(at 123.19 110.49 0)
+		(property "Footprint" "myparts:CAPMP7.6X4.3_4.3N_KEM"
+			(at 123.19 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7413,7 +8586,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf"
-			(at 123.19 110.49 0)
+			(at 123.19 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7422,8 +8595,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 123.19 110.49 0)
+		(property "Description" "CAP TANT POLY 100UF 25V 2917"
+			(at 123.19 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7432,7 +8605,34 @@
 			)
 		)
 		(property "Part" "T521X107M025ATE060"
-			(at 123.19 110.49 0)
+			(at 123.19 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Kemet"
+			(at 123.19 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "T521X107M025ATE060"
+			(at 123.19 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "3.56"
+			(at 123.19 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7499,7 +8699,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.5A, Adjustable, Low Noise, Linear Voltage Regulator, TO-263-5"
+		(property "Description" "IC REG LIN POS ADJ 1.5A DDPAK-5"
+			(at 100.33 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "5.57"
+			(at 100.33 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Analog Devices"
+			(at 100.33 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "LT1963AEQ#TRPBF"
 			(at 100.33 36.83 0)
 			(effects
 				(font
@@ -7675,7 +8902,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b0296a33-0505-45dd-b47b-3570db096366")
 		(property "Reference" "R56"
 			(at 186.69 30.48 0)
@@ -7685,13 +8911,12 @@
 				)
 			)
 		)
-		(property "Value" "KRL6432E-M-R010-F-T1"
-			(at 186.69 30.48 0)
+		(property "Value" "0.01"
+			(at 186.944 37.592 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "myparts:RES_6432_SUS"
@@ -7714,7 +8939,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 0.01 OHM 3W 2512 WIDE"
+			(at 180.34 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.71"
+			(at 180.34 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Susumu"
+			(at 180.34 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "KRL6432E-M-R010-F-T1"
 			(at 180.34 34.29 0)
 			(effects
 				(font
@@ -7807,7 +9059,7 @@
 	)
 	(symbol
 		(lib_id "psc:+15V_DCCT")
-		(at 200.66 25.4 0)
+		(at 242.57 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7816,7 +9068,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba05ea1d-2489-48d7-a47a-dad021a60bd6")
 		(property "Reference" "#PWR0219"
-			(at 200.66 29.21 0)
+			(at 242.57 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7825,7 +9077,7 @@
 			)
 		)
 		(property "Value" "+15V_DCCT"
-			(at 200.66 20.32 0)
+			(at 242.57 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7833,7 +9085,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 25.4 0)
+			(at 242.57 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7842,7 +9094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 25.4 0)
+			(at 242.57 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7851,7 +9103,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 200.66 25.4 0)
+			(at 242.57 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7916,7 +9168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 151.13 113.03 0)
 			(effects
 				(font
@@ -7931,6 +9183,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8033,7 +9312,7 @@
 				)
 			)
 		)
-		(property "Value" "LT6105"
+		(property "Value" "LT6106"
 			(at 217.17 63.4298 0)
 			(effects
 				(font
@@ -8059,7 +9338,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "36V Low Cost, High Side Current Sense, SOT-23-5"
+		(property "Description" "IC CURR SENSE 1 CIRCUIT TSOT23-5"
+			(at 207.01 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "2.01"
+			(at 207.01 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Analog Devices"
+			(at 207.01 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "LT6106CS5#TRMPBF"
 			(at 207.01 67.31 0)
 			(effects
 				(font
@@ -8087,6 +9393,100 @@
 			(project "psc_carrier_brd"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/d1842e08-6ad7-4891-bdb3-3a3a498e2a30/7a687100-ef1a-4869-9af0-65325fdcbe1f"
 					(reference "U22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 251.46 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "ce90d1b5-1f0b-4612-a1a1-065fd0822936")
+		(property "Reference" "TP10"
+			(at 248.92 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${SHORT_NET_NAME(1)}"
+			(at 254 29.083 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 256.54 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "${DNP}" "${DNP}"
+			(at 251.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "N/A"
+			(at 251.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "N/A"
+			(at 251.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebca14a9-f110-49fe-814d-8f5482824621")
+		)
+		(instances
+			(project "psc_carrier_brd"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/d1842e08-6ad7-4891-bdb3-3a3a498e2a30/7a687100-ef1a-4869-9af0-65325fdcbe1f"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -8121,7 +9521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPMP7.6X4.3_4.3N_KEM"
+		(property "Footprint" "myparts:CAPMP7.6X4.3_4.3N_KEM"
 			(at 138.43 35.56 0)
 			(effects
 				(font
@@ -8141,7 +9541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP TANT POLY 100UF 25V 2917"
 			(at 138.43 35.56 0)
 			(effects
 				(font
@@ -8152,6 +9552,33 @@
 		)
 		(property "Part" "T521X107M025ATE060"
 			(at 138.43 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Kemet"
+			(at 138.43 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "T521X107M025ATE060"
+			(at 138.43 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "3.56"
+			(at 138.43 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8350,7 +9777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 100 OHM 1% 1/10W 0402"
 			(at 177.8 50.8 0)
 			(effects
 				(font
@@ -8361,6 +9788,33 @@
 		)
 		(property "Tolerance" "1%"
 			(at 181.61 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 177.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF1000X"
+			(at 177.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
+			(at 177.8 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8426,7 +9880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 4.99K OHM 1% 1/10W 0402"
 			(at 222.25 73.66 0)
 			(effects
 				(font
@@ -8437,6 +9891,33 @@
 		)
 		(property "Tolerance" "1%"
 			(at 226.06 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 222.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF4991X"
+			(at 222.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
+			(at 222.25 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)

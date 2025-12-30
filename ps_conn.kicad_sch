@@ -1484,7 +1484,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CONN MICRO-D PLUG 25POS R/A SLDR"
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "17.82"
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Molex"
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "0836149012"
 			(at 127 83.82 0)
 			(effects
 				(font

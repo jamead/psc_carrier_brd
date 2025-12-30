@@ -3242,7 +3242,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1.0K"
 			(at 64.77 168.91 0)
 			(effects
 				(font
@@ -3268,7 +3268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 1K OHM 1% 1/10W 0402"
 			(at 60.96 168.91 0)
 			(effects
 				(font
@@ -3279,6 +3279,33 @@
 		)
 		(property "Tolerance" "1%"
 			(at 64.77 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 60.96 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF1001X"
+			(at 60.96 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
+			(at 60.96 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3318,7 +3345,7 @@
 				)
 			)
 		)
-		(property "Value" "9.56K"
+		(property "Value" "9.53K"
 			(at 80.01 142.24 0)
 			(effects
 				(font
@@ -3344,7 +3371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 9.53K OHM 1% 1/10W 0402"
 			(at 76.2 142.24 0)
 			(effects
 				(font
@@ -3355,6 +3382,33 @@
 		)
 		(property "Tolerance" "1%"
 			(at 80.01 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 76.2 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF9531X"
+			(at 76.2 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
+			(at 76.2 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3420,7 +3474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 4.99K OHM 1% 1/10W 0402"
 			(at 198.12 85.09 0)
 			(effects
 				(font
@@ -3431,6 +3485,33 @@
 		)
 		(property "Tolerance" "1%"
 			(at 201.93 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 198.12 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF4991X"
+			(at 198.12 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
+			(at 198.12 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3536,7 +3617,7 @@
 				)
 			)
 		)
-		(property "Value" "9K"
+		(property "Value" "9.09K"
 			(at 95.25 168.91 0)
 			(effects
 				(font
@@ -3562,7 +3643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 9.09K OHM 1% 1/10W 0402"
 			(at 91.44 168.91 0)
 			(effects
 				(font
@@ -3573,6 +3654,33 @@
 		)
 		(property "Tolerance" "1%"
 			(at 95.25 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 91.44 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF9091X"
+			(at 91.44 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
+			(at 91.44 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3745,7 +3853,7 @@
 				)
 			)
 		)
-		(property "Value" "9.56K"
+		(property "Value" "9.53K"
 			(at 109.22 142.24 0)
 			(effects
 				(font
@@ -3771,7 +3879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 9.53K OHM 1% 1/10W 0402"
 			(at 105.41 142.24 0)
 			(effects
 				(font
@@ -3782,6 +3890,33 @@
 		)
 		(property "Tolerance" "1%"
 			(at 109.22 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 105.41 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF9531X"
+			(at 105.41 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
+			(at 105.41 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4381,7 +4516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 186.69 85.09 0)
 			(effects
 				(font
@@ -4396,6 +4531,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 186.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F"
+			(at 186.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
+			(at 186.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4562,7 +4724,7 @@
 				)
 			)
 		)
-		(property "Value" "9K"
+		(property "Value" "9.09K"
 			(at 80.01 168.91 0)
 			(effects
 				(font
@@ -4588,7 +4750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 9.09K OHM 1% 1/10W 0402"
 			(at 76.2 168.91 0)
 			(effects
 				(font
@@ -4599,6 +4761,33 @@
 		)
 		(property "Tolerance" "1%"
 			(at 80.01 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 76.2 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF9091X"
+			(at 76.2 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
+			(at 76.2 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4732,7 +4921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC MONITOR OCTAL 16MSOP"
 			(at 128.27 95.25 0)
 			(effects
 				(font
@@ -4758,6 +4947,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Analog Devices"
+			(at 128.27 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "LTC2991CMS#TRPBF"
+			(at 128.27 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4863,7 +5070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 186.69 27.94 0)
 			(effects
 				(font
@@ -4878,6 +5085,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 186.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F"
+			(at 186.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
+			(at 186.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4912,7 +5146,7 @@
 				)
 			)
 		)
-		(property "Value" "9K"
+		(property "Value" "9.09K"
 			(at 40.64 142.24 0)
 			(effects
 				(font
@@ -4938,7 +5172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 9.09K OHM 1% 1/10W 0402"
 			(at 36.83 142.24 0)
 			(effects
 				(font
@@ -4949,6 +5183,33 @@
 		)
 		(property "Tolerance" "1%"
 			(at 40.64 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 36.83 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF9091X"
+			(at 36.83 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
+			(at 36.83 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +5249,7 @@
 				)
 			)
 		)
-		(property "Value" "9K"
+		(property "Value" "9.09K"
 			(at 109.22 168.91 0)
 			(effects
 				(font
@@ -5014,7 +5275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 9.09K OHM 1% 1/10W 0402"
 			(at 105.41 168.91 0)
 			(effects
 				(font
@@ -5025,6 +5286,33 @@
 		)
 		(property "Tolerance" "1%"
 			(at 109.22 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 105.41 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF9091X"
+			(at 105.41 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
+			(at 105.41 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5131,7 +5419,7 @@
 				)
 			)
 		)
-		(property "Value" "9K"
+		(property "Value" "9.09K"
 			(at 52.07 142.24 0)
 			(effects
 				(font
@@ -5157,7 +5445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 9.09K OHM 1% 1/10W 0402"
 			(at 48.26 142.24 0)
 			(effects
 				(font
@@ -5168,6 +5456,33 @@
 		)
 		(property "Tolerance" "1%"
 			(at 52.07 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 48.26 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF9091X"
+			(at 48.26 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
+			(at 48.26 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5207,7 +5522,7 @@
 				)
 			)
 		)
-		(property "Value" "9K"
+		(property "Value" "9.09K"
 			(at 64.77 142.24 0)
 			(effects
 				(font
@@ -5233,7 +5548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 9.09K OHM 1% 1/10W 0402"
 			(at 60.96 142.24 0)
 			(effects
 				(font
@@ -5244,6 +5559,33 @@
 		)
 		(property "Tolerance" "1%"
 			(at 64.77 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 60.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF9091X"
+			(at 60.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
+			(at 60.96 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5312,7 +5654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC MONITOR OCTAL 16MSOP"
 			(at 129.54 38.1 0)
 			(effects
 				(font
@@ -5338,6 +5680,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Analog Devices"
+			(at 129.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "LTC2991CMS#TRPBF"
+			(at 129.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5510,7 +5870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC MONITOR OCTAL 16MSOP"
 			(at 128.27 149.86 0)
 			(effects
 				(font
@@ -5536,6 +5896,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Analog Devices"
+			(at 128.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "LTC2991CMS#TRPBF"
+			(at 128.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5746,7 +6124,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1.0K"
 			(at 40.64 168.91 0)
 			(effects
 				(font
@@ -5772,7 +6150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 1K OHM 1% 1/10W 0402"
 			(at 36.83 168.91 0)
 			(effects
 				(font
@@ -5783,6 +6161,33 @@
 		)
 		(property "Tolerance" "1%"
 			(at 40.64 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 36.83 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF1001X"
+			(at 36.83 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
+			(at 36.83 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5822,7 +6227,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1.0K"
 			(at 52.07 168.91 0)
 			(effects
 				(font
@@ -5848,7 +6253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 1K OHM 1% 1/10W 0402"
 			(at 48.26 168.91 0)
 			(effects
 				(font
@@ -5859,6 +6264,33 @@
 		)
 		(property "Tolerance" "1%"
 			(at 52.07 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 48.26 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF1001X"
+			(at 48.26 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
+			(at 48.26 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6058,7 +6490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 186.69 139.7 0)
 			(effects
 				(font
@@ -6073,6 +6505,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 186.69 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F"
+			(at 186.69 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
+			(at 186.69 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6173,7 +6632,7 @@
 				)
 			)
 		)
-		(property "Value" "9.56K"
+		(property "Value" "9.53K"
 			(at 95.25 142.24 0)
 			(effects
 				(font
@@ -6199,7 +6658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 9.53K OHM 1% 1/10W 0402"
 			(at 91.44 142.24 0)
 			(effects
 				(font
@@ -6210,6 +6669,33 @@
 		)
 		(property "Tolerance" "1%"
 			(at 95.25 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 91.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF9531X"
+			(at 91.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
+			(at 91.44 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6275,7 +6761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 4.99K OHM 1% 1/10W 0402"
 			(at 198.12 139.7 0)
 			(effects
 				(font
@@ -6286,6 +6772,33 @@
 		)
 		(property "Tolerance" "1%"
 			(at 201.93 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 198.12 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF4991X"
+			(at 198.12 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
+			(at 198.12 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)

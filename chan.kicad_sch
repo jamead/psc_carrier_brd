@@ -645,6 +645,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "psc:+2.5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+2.5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-15V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+2.5V_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "+2.5V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "psc:+5.3V"
 			(power)
 			(pin_numbers
@@ -2987,6 +3088,12 @@
 		(uuid "4c7b6343-edab-4543-897b-c4f6e52710d9")
 	)
 	(junction
+		(at 179.07 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5149a9f4-d17b-4bb1-8970-a75531094017")
+	)
+	(junction
 		(at 179.07 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3011,12 +3118,6 @@
 		(uuid "5792923a-9c83-430f-86a6-0b682e85fa2a")
 	)
 	(junction
-		(at 187.96 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58ea2c38-eb51-4431-a793-36451bde548a")
-	)
-	(junction
 		(at 135.89 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3035,22 +3136,10 @@
 		(uuid "6fe00fc4-85c7-48fd-abe3-2238c90f0556")
 	)
 	(junction
-		(at 187.96 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7437463d-8ca7-4497-ab3d-30b5aa5fc16f")
-	)
-	(junction
 		(at 179.07 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "758dd7a6-dd88-488b-a882-151e6c11d1f7")
-	)
-	(junction
-		(at 187.96 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c0f4011-891d-44ef-ad12-ef0d59391c7b")
 	)
 	(junction
 		(at 138.43 104.14)
@@ -3105,6 +3194,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8cb2018d-00fd-4bef-a0f5-9b2c02db04e3")
+	)
+	(junction
+		(at 179.07 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d1e2405-d111-4c2c-9042-5893572805d4")
 	)
 	(junction
 		(at 135.89 66.04)
@@ -3840,6 +3935,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 129.54) (xy 179.07 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f7e8544-52f7-48a4-a372-3b0a5408c7d4")
+	)
+	(wire
+		(pts
 			(xy 135.89 88.9) (xy 135.89 91.44)
 		)
 		(stroke
@@ -4000,7 +4105,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 134.62) (xy 187.96 139.7)
+			(xy 187.96 127) (xy 187.96 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4700,16 +4805,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 129.54) (xy 187.96 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b627139-2daa-4c2a-873b-432a5f82a00f")
-	)
-	(wire
-		(pts
 			(xy 133.35 91.44) (xy 135.89 91.44)
 		)
 		(stroke
@@ -4787,16 +4882,6 @@
 			(type default)
 		)
 		(uuid "65a940bc-13df-4eb5-8452-5d52ed463bb4")
-	)
-	(wire
-		(pts
-			(xy 191.77 134.62) (xy 187.96 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "669d5876-1e7c-40c7-80ce-d670e89de768")
 	)
 	(bus
 		(pts
@@ -5060,16 +5145,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 129.54) (xy 187.96 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7df386ac-6850-462c-ad86-41d5ad61b6f2")
-	)
-	(wire
-		(pts
 			(xy 187.96 93.98) (xy 187.96 96.52)
 		)
 		(stroke
@@ -5077,16 +5152,6 @@
 			(type default)
 		)
 		(uuid "7e02014b-565f-489f-ae3b-f9149e72aa8b")
-	)
-	(wire
-		(pts
-			(xy 191.77 132.08) (xy 187.96 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ec7d4c7-e080-44f4-b9e6-ac8a374438f3")
 	)
 	(bus
 		(pts
@@ -5370,6 +5435,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 129.54) (xy 179.07 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9211c2a9-f4c7-4b57-adac-59e32d3f24f2")
+	)
+	(wire
+		(pts
 			(xy 97.79 184.15) (xy 97.79 182.88)
 		)
 		(stroke
@@ -5590,16 +5665,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 132.08) (xy 187.96 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8490f75-33d9-482e-991d-c63f48282c14")
-	)
-	(wire
-		(pts
 			(xy 133.35 99.06) (xy 135.89 99.06)
 		)
 		(stroke
@@ -5758,6 +5823,16 @@
 		)
 		(uuid "b8e89fea-f5f2-4e66-9149-e3621863286a")
 	)
+	(wire
+		(pts
+			(xy 179.07 134.62) (xy 179.07 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b95cbc4f-4fcb-4599-8aab-3b0a35a1c2c4")
+	)
 	(bus
 		(pts
 			(xy 234.95 109.22) (xy 234.95 107.95)
@@ -5850,6 +5925,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 132.08) (xy 179.07 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f42116-c798-436e-b3d1-f74676a31d5a")
+	)
+	(wire
+		(pts
 			(xy 191.77 119.38) (xy 187.96 119.38)
 		)
 		(stroke
@@ -5867,6 +5952,16 @@
 			(type default)
 		)
 		(uuid "c94b85f1-6c01-4099-8149-7f479e81bc13")
+	)
+	(wire
+		(pts
+			(xy 191.77 132.08) (xy 179.07 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccc2494b-abea-4742-8259-38fa84a580b6")
 	)
 	(wire
 		(pts
@@ -6050,6 +6145,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 134.62) (xy 179.07 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e12beeb3-ee70-4b8b-9c67-47abee416968")
+	)
+	(wire
+		(pts
 			(xy 106.68 124.46) (xy 106.68 127)
 		)
 		(stroke
@@ -6097,16 +6202,6 @@
 			(type default)
 		)
 		(uuid "e799e706-01d2-4e57-8533-6525797bd654")
-	)
-	(wire
-		(pts
-			(xy 187.96 127) (xy 187.96 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7b65fb6-3e74-4720-af1f-0fd33cf3e862")
 	)
 	(wire
 		(pts
@@ -7350,6 +7445,84 @@
 		)
 	)
 	(symbol
+		(lib_id "psc:+2.5V")
+		(at 179.07 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45c684e8-cfae-4dc0-8f21-30cd1b669f9c")
+		(property "Reference" "#PWR0232"
+			(at 179.07 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2.5V"
+			(at 179.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 179.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "820a24ab-9e60-4bbd-98ef-70726bbc2f35")
+		)
+		(instances
+			(project ""
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/66704ae2-4e31-439d-ae4e-acdb607106a4"
+					(reference "#PWR0234")
+					(unit 1)
+				)
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/68fa8dde-6b87-4418-ab24-6dd6792cf3f7"
+					(reference "#PWR0232")
+					(unit 1)
+				)
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/79ccc009-8b32-4834-80e8-facad3ab4620"
+					(reference "#PWR0233")
+					(unit 1)
+				)
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/bff48835-53bb-47a9-9e6c-9af939cbdeca"
+					(reference "#PWR0235")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 135.89 138.43 0)
 		(unit 1)
@@ -7551,7 +7724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CONN PLUG 60POS SMD GOLD"
 			(at 120.65 96.52 0)
 			(effects
 				(font
@@ -7597,6 +7770,33 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Cost" "2.81"
+			(at 120.65 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Amphenol"
+			(at 120.65 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "61083-061402LF"
+			(at 120.65 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8317,7 +8517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CONN PLUG 60POS SMD GOLD"
 			(at 204.47 96.52 0)
 			(effects
 				(font
@@ -8363,6 +8563,33 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Cost" "2.81"
+			(at 204.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Amphenol"
+			(at 204.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "61083-061402LF"
+			(at 204.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

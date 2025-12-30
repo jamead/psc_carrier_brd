@@ -784,7 +784,7 @@
 		(uuid "7127c7c9-9801-4a7e-9703-e43d4d0cbed0")
 	)
 	(fp_text user "*"
-		(at -3.0226 -1.905 0)
+		(at -3.0226 -2 0)
 		(layer "F.SilkS")
 		(uuid "ad8c6f61-aa69-4e12-8828-3c2b48c86ac1")
 		(effects

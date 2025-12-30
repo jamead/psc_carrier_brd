@@ -2520,7 +2520,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 68.58) (xy 156.21 68.58)
+			(xy 148.59 68.58) (xy 158.75 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2900,7 +2900,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 68.58) (xy 165.1 68.58)
+			(xy 163.83 68.58) (xy 165.1 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3378,6 +3378,16 @@
 		)
 		(uuid "ff9b0886-24dc-41e9-a6cd-6ab73b01b76f")
 	)
+	(label "+5vrego"
+		(at 149.86 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42495f51-120c-418b-9f85-db56ad5014d3")
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 243.84 66.04 0)
@@ -3385,7 +3395,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0512761a-3eac-4986-9af4-78dc85d2096e")
 		(property "Reference" "TP2"
 			(at 241.3 60.96 0)
@@ -3442,6 +3452,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFG" "N/A"
+			(at 243.84 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "N/A"
+			(at 243.84 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f48ade32-56b0-4a4e-a22b-05e7a333be7d")
 		)
@@ -3456,7 +3484,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 158.75 68.58 90)
+		(at 161.29 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3465,15 +3493,15 @@
 		(fields_autoplaced yes)
 		(uuid "1549837e-eccb-43bc-aaac-f20f8ad51387")
 		(property "Reference" "L6"
-			(at 158.75 63.5 90)
+			(at 161.29 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2.2u"
-			(at 158.75 66.04 90)
+		(property "Value" "2.2uF"
+			(at 161.29 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3481,7 +3509,7 @@
 			)
 		)
 		(property "Footprint" "myparts:COILCRAFT_MSS1048"
-			(at 158.75 68.58 0)
+			(at 161.29 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,7 +3518,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 68.58 0)
+			(at 161.29 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,8 +3526,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 158.75 68.58 0)
+		(property "Description" "FIXED IND 2.2UH 9.78A 7.2MOHM SM"
+			(at 161.29 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,7 +3536,7 @@
 			)
 		)
 		(property "MFG" "Coilcraft"
-			(at 158.75 68.58 90)
+			(at 161.29 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3517,7 +3545,7 @@
 			)
 		)
 		(property "MFG_PN" "MSS1048-222NLC"
-			(at 158.75 68.58 90)
+			(at 161.29 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3526,7 +3554,16 @@
 			)
 		)
 		(property "${DNP}" "${DNP}"
-			(at 158.75 68.58 0)
+			(at 161.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "3.26"
+			(at 161.29 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3635,7 +3672,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.13k"
+		(property "Value" "1.13K"
 			(at 97.79 67.3099 0)
 			(effects
 				(font
@@ -3662,7 +3699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 1.13K OHM 1% 1/10W 0402"
 			(at 95.25 66.04 0)
 			(effects
 				(font
@@ -3680,7 +3717,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PN" "RMCF0603FT1K13"
+		(property "MFG_PN" "ERJ-2RKF1131X"
 			(at 95.25 66.04 0)
 			(effects
 				(font
@@ -3689,7 +3726,16 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Stackpole Electronics Inc"
+		(property "MFG" "Panasonic"
+			(at 95.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
 			(at 95.25 66.04 0)
 			(effects
 				(font
@@ -3757,7 +3803,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "42V, 6A Synchronous Step-Down Silent Switcher 2 with 2.5μA Quiescent Current"
+		(property "Description" "IC REG BUCK ADJ 6A 24LQFN"
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "9.56"
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Analog Devices"
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "LT8643SEV#PBF"
 			(at 134.62 63.5 0)
 			(effects
 				(font
@@ -3878,7 +3951,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7K"
 			(at 111.76 120.6499 0)
 			(effects
 				(font
@@ -3905,7 +3978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0402"
 			(at 109.22 119.38 0)
 			(effects
 				(font
@@ -3923,7 +3996,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Stackpole Electronics Inc"
+		(property "MFG" "Panasonic"
 			(at 109.22 119.38 0)
 			(effects
 				(font
@@ -3932,7 +4005,16 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PN" "RMCF0603FT4K70"
+		(property "MFG_PN" "ERJ-2RKF4701X"
+			(at 109.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
 			(at 109.22 119.38 0)
 			(effects
 				(font
@@ -3974,7 +4056,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 76.2 59.69 0)
 			(effects
 				(font
@@ -4001,7 +4083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 10UF 25V X5R 0603"
 			(at 73.66 58.42 0)
 			(effects
 				(font
@@ -4019,7 +4101,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Samsung Electro-Mechanics"
+		(property "MFG" "Samsung"
 			(at 73.66 58.42 0)
 			(effects
 				(font
@@ -4029,6 +4111,15 @@
 			)
 		)
 		(property "MFG_PN" "CL10A106MA8NRNC"
+			(at 73.66 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".04"
 			(at 73.66 58.42 0)
 			(effects
 				(font
@@ -4071,7 +4162,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 100.33 102.8762 0)
 			(effects
 				(font
@@ -4098,7 +4189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 1UF 25V X7R 0603"
 			(at 97.79 101.6 0)
 			(effects
 				(font
@@ -4116,7 +4207,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Samsung Electro-Mechanics"
+		(property "MFG" "Samsung"
 			(at 97.79 101.6 0)
 			(effects
 				(font
@@ -4126,6 +4217,15 @@
 			)
 		)
 		(property "MFG_PN" "CL10B105KA8NNNC"
+			(at 97.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
 			(at 97.79 101.6 0)
 			(effects
 				(font
@@ -4301,7 +4401,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10p"
+		(property "Value" "10pF"
 			(at 186.69 73.6662 0)
 			(effects
 				(font
@@ -4328,7 +4428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 10PF 50V C0G/NP0 0603"
 			(at 184.15 72.39 0)
 			(effects
 				(font
@@ -4346,7 +4446,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Samsung Electro-Mechanics"
+		(property "MFG" "Samsung"
 			(at 184.15 72.39 0)
 			(effects
 				(font
@@ -4356,6 +4456,15 @@
 			)
 		)
 		(property "MFG_PN" "CL10C100JB8NFNC"
+			(at 184.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
 			(at 184.15 72.39 0)
 			(effects
 				(font
@@ -4397,7 +4506,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.0K"
 			(at 69.85 130.8099 0)
 			(effects
 				(font
@@ -4424,7 +4533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 1K OHM 1% 1/10W 0402"
 			(at 67.31 129.54 0)
 			(effects
 				(font
@@ -4442,7 +4551,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Stackpole Electronics Inc"
+		(property "MFG" "Panasonic"
 			(at 67.31 129.54 0)
 			(effects
 				(font
@@ -4451,7 +4560,16 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PN" "RMCF0603FT1K00"
+		(property "MFG_PN" "ERJ-2RKF1001X"
+			(at 67.31 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
 			(at 67.31 129.54 0)
 			(effects
 				(font
@@ -4494,7 +4612,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7K"
 			(at 100.33 78.7399 0)
 			(effects
 				(font
@@ -4521,7 +4639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0402"
 			(at 97.79 77.47 0)
 			(effects
 				(font
@@ -4539,7 +4657,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Stackpole Electronics Inc"
+		(property "MFG" "Panasonic"
 			(at 97.79 77.47 0)
 			(effects
 				(font
@@ -4548,7 +4666,16 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PN" "RMCF0603FT4K70"
+		(property "MFG_PN" "ERJ-2RKF4701X"
+			(at 97.79 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
 			(at 97.79 77.47 0)
 			(effects
 				(font
@@ -4724,7 +4851,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22uF"
 			(at 226.06 74.9362 0)
 			(effects
 				(font
@@ -4751,7 +4878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22UF 25V X5R 0805"
 			(at 223.52 73.66 0)
 			(effects
 				(font
@@ -4769,7 +4896,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Samsung Electro-Mechanics"
+		(property "MFG" "Samsung"
 			(at 223.52 73.66 0)
 			(effects
 				(font
@@ -4779,6 +4906,15 @@
 			)
 		)
 		(property "MFG_PN" "CL21A226MAYNNNE"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.04"
 			(at 223.52 73.66 0)
 			(effects
 				(font
@@ -4821,7 +4957,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10.2k"
+		(property "Value" "10.2K"
 			(at 97.79 59.6899 0)
 			(effects
 				(font
@@ -4848,7 +4984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 10.2K OHM 1% 1/10W 0402"
 			(at 95.25 58.42 0)
 			(effects
 				(font
@@ -4866,7 +5002,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PN" "RMCF0603FT10K2"
+		(property "MFG_PN" "ERJ-2RKF1022X"
 			(at 95.25 58.42 0)
 			(effects
 				(font
@@ -4875,7 +5011,16 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Stackpole Electronics Inc"
+		(property "MFG" "Panasonic"
+			(at 95.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
 			(at 95.25 58.42 0)
 			(effects
 				(font
@@ -4985,7 +5130,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.022u"
+		(property "Value" "0.022uF"
 			(at 57.15 102.8762 0)
 			(effects
 				(font
@@ -5012,7 +5157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.022UF 50V X7R 0603"
 			(at 54.61 101.6 0)
 			(effects
 				(font
@@ -5030,7 +5175,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Samsung Electro-Mechanics"
+		(property "MFG" "Samsung"
 			(at 54.61 101.6 0)
 			(effects
 				(font
@@ -5040,6 +5185,15 @@
 			)
 		)
 		(property "MFG_PN" "CL10B223KB8NNNC"
+			(at 54.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
 			(at 54.61 101.6 0)
 			(effects
 				(font
@@ -5109,12 +5263,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOSFET N-CH 60V 270MA SOT323"
 			(at 64.77 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "${DNP}" "${DNP}"
@@ -5126,7 +5281,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Nexperia USA Inc."
+		(property "MFG" "Nexperia"
 			(at 64.77 138.43 0)
 			(effects
 				(font
@@ -5136,6 +5291,15 @@
 			)
 		)
 		(property "MFG_PN" "NX7002BKWX"
+			(at 64.77 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.1"
 			(at 64.77 138.43 0)
 			(effects
 				(font
@@ -5449,7 +5613,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22uF"
 			(at 215.9 74.9362 0)
 			(effects
 				(font
@@ -5476,7 +5640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22UF 25V X5R 0805"
 			(at 213.36 73.66 0)
 			(effects
 				(font
@@ -5494,7 +5658,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Samsung Electro-Mechanics"
+		(property "MFG" "Samsung"
 			(at 213.36 73.66 0)
 			(effects
 				(font
@@ -5504,6 +5668,15 @@
 			)
 		)
 		(property "MFG_PN" "CL21A226MAYNNNE"
+			(at 213.36 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.04"
 			(at 213.36 73.66 0)
 			(effects
 				(font
@@ -5546,7 +5719,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10.2k"
+		(property "Value" "10.2K"
 			(at 175.26 81.2799 0)
 			(effects
 				(font
@@ -5573,7 +5746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 10.2K OHM 1% 1/10W 0402"
 			(at 172.72 80.01 0)
 			(effects
 				(font
@@ -5591,7 +5764,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PN" ""
+		(property "MFG_PN" "ERJ-2RKF1022X"
 			(at 172.72 80.01 0)
 			(effects
 				(font
@@ -5600,7 +5773,16 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Panasonic"
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
 			(at 172.72 80.01 0)
 			(effects
 				(font
@@ -5642,7 +5824,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 86.36 59.69 0)
 			(effects
 				(font
@@ -5669,7 +5851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 10UF 25V X5R 0603"
 			(at 83.82 58.42 0)
 			(effects
 				(font
@@ -5687,7 +5869,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Samsung Electro-Mechanics"
+		(property "MFG" "Samsung"
 			(at 83.82 58.42 0)
 			(effects
 				(font
@@ -5697,6 +5879,15 @@
 			)
 		)
 		(property "MFG_PN" "CL10A106MA8NRNC"
+			(at 83.82 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".04"
 			(at 83.82 58.42 0)
 			(effects
 				(font
@@ -5805,7 +5996,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10p"
+		(property "Value" "10pF"
 			(at 80.01 102.8762 0)
 			(effects
 				(font
@@ -5832,7 +6023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 10PF 50V C0G/NP0 0603"
 			(at 77.47 101.6 0)
 			(effects
 				(font
@@ -5850,7 +6041,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Samsung Electro-Mechanics"
+		(property "MFG" "Samsung"
 			(at 77.47 101.6 0)
 			(effects
 				(font
@@ -5860,6 +6051,15 @@
 			)
 		)
 		(property "MFG_PN" "CL10C100JB8NFNC"
+			(at 77.47 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ".01"
 			(at 77.47 101.6 0)
 			(effects
 				(font
@@ -5902,7 +6102,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8.45k"
+		(property "Value" "8.45K"
 			(at 88.9 96.5199 0)
 			(effects
 				(font
@@ -5929,7 +6129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 8.45K OHM 1% 1/10W 0402"
 			(at 86.36 95.25 0)
 			(effects
 				(font
@@ -5947,7 +6147,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PN" "RMCF0603FT8K45"
+		(property "MFG_PN" "ERJ-2RKF8451X"
 			(at 86.36 95.25 0)
 			(effects
 				(font
@@ -5956,7 +6156,16 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Stackpole Electronics Inc"
+		(property "MFG" "Panasonic"
+			(at 86.36 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
 			(at 86.36 95.25 0)
 			(effects
 				(font
@@ -6091,12 +6300,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED GREEN CLEAR SMD"
 			(at 67.31 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MFG" "Lite-On Inc."
@@ -6110,6 +6320,15 @@
 		)
 		(property "MFG_PN" "LTST-C191KGKT"
 			(at 67.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.1"
+			(at 67.31 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6139,7 +6358,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b7bf57f7-0d9d-46fc-95d6-0bd1f5fcbe7d")
 		(property "Reference" "TP1"
 			(at 25.4 66.04 0)
@@ -6196,6 +6415,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFG" "N/A"
+			(at 27.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "N/A"
+			(at 27.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "12db1375-ea7d-4573-acc4-2d3daff33d1b")
 		)
@@ -6227,7 +6464,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "41.2k"
+		(property "Value" "41.2K"
 			(at 68.58 102.8699 0)
 			(effects
 				(font
@@ -6254,7 +6491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 41.2K OHM 1% 1/10W 0402"
 			(at 66.04 101.6 0)
 			(effects
 				(font
@@ -6272,7 +6509,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PN" "RMCF0603FT41K2"
+		(property "MFG_PN" "ERJ-2RKF4122X"
 			(at 66.04 101.6 0)
 			(effects
 				(font
@@ -6281,7 +6518,16 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Stackpole Electronics Inc"
+		(property "MFG" "Panasonic"
+			(at 66.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
 			(at 66.04 101.6 0)
 			(effects
 				(font
@@ -6324,7 +6570,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22uF"
 			(at 205.74 74.9362 0)
 			(effects
 				(font
@@ -6351,7 +6597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22UF 25V X5R 0805"
 			(at 203.2 73.66 0)
 			(effects
 				(font
@@ -6369,7 +6615,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Samsung Electro-Mechanics"
+		(property "MFG" "Samsung"
 			(at 203.2 73.66 0)
 			(effects
 				(font
@@ -6379,6 +6625,15 @@
 			)
 		)
 		(property "MFG_PN" "CL21A226MAYNNNE"
+			(at 203.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.04"
 			(at 203.2 73.66 0)
 			(effects
 				(font
@@ -6554,7 +6809,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "42.2k"
+		(property "Value" "42.2K"
 			(at 175.26 73.6599 0)
 			(effects
 				(font
@@ -6581,7 +6836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 42.2K OHM 1% 1/10W 0402"
 			(at 172.72 72.39 0)
 			(effects
 				(font
@@ -6599,7 +6854,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PN" "RMCF0603FT42K2"
+		(property "MFG_PN" "ERJ-2RKF4222X"
 			(at 172.72 72.39 0)
 			(effects
 				(font
@@ -6608,7 +6863,16 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Stackpole Electronics Inc"
+		(property "MFG" "Panasonic"
+			(at 172.72 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
 			(at 172.72 72.39 0)
 			(effects
 				(font
@@ -6722,7 +6986,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330p"
+		(property "Value" "330pF"
 			(at 88.9 102.8762 0)
 			(effects
 				(font
@@ -6749,7 +7013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 330PF 50V X7R 0603"
 			(at 86.36 101.6 0)
 			(effects
 				(font
@@ -6767,7 +7031,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Samsung Electro-Mechanics"
+		(property "MFG" "Samsung"
 			(at 86.36 101.6 0)
 			(effects
 				(font
@@ -6777,6 +7041,15 @@
 			)
 		)
 		(property "MFG_PN" "CL10B331KB8NNNC"
+			(at 86.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
 			(at 86.36 101.6 0)
 			(effects
 				(font
@@ -6886,7 +7159,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22uF"
 			(at 236.22 74.9362 0)
 			(effects
 				(font
@@ -6913,7 +7186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22UF 25V X5R 0805"
 			(at 233.68 73.66 0)
 			(effects
 				(font
@@ -6931,7 +7204,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Samsung Electro-Mechanics"
+		(property "MFG" "Samsung"
 			(at 233.68 73.66 0)
 			(effects
 				(font
@@ -6941,6 +7214,15 @@
 			)
 		)
 		(property "MFG_PN" "CL21A226MAYNNNE"
+			(at 233.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.04"
 			(at 233.68 73.66 0)
 			(effects
 				(font
@@ -7010,7 +7292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402"
 			(at 114.3 109.22 0)
 			(effects
 				(font
@@ -7028,7 +7310,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Stackpole Electronics Inc"
+		(property "MFG" "Panasonic"
 			(at 114.3 109.22 0)
 			(effects
 				(font
@@ -7037,7 +7319,16 @@
 				(hide yes)
 			)
 		)
-		(property "MFG_PN" "RMCF0603FT4K70"
+		(property "MFG_PN" "ERJ-2GE0R00X"
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.01"
 			(at 114.3 109.22 0)
 			(effects
 				(font

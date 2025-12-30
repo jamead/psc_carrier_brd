@@ -1,7 +1,7 @@
 (footprint "TE_6469028-1"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -21.075 -10.885 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bcb88aae-ef71-47ea-843c-b09aeefeac83")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -64,7 +52,7 @@
 	(attr through_hole)
 	(fp_line
 		(start -24.2 -8.2)
-		(end -24.2 1.5)
+		(end -24.2 -1)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -172,17 +160,6 @@
 		(layer "F.SilkS")
 		(uuid "2ec14ceb-1218-4547-a6e1-6b4b3f529121")
 	)
-	(fp_circle
-		(center 1.25 0)
-		(end 1.35 0)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "5be0cc89-f93e-4c8f-885c-769747de93a7")
-	)
 	(fp_line
 		(start -24.45 -8.45)
 		(end 1 -8.45)
@@ -282,17 +259,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "27f0bac6-8a04-48ff-b4cc-0bd1b29c8513")
-	)
-	(fp_circle
-		(center 1.25 0)
-		(end 1.35 0)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Fab")
-		(uuid "76ddd303-5272-4317-b4b3-a9e6c18a1ef0")
 	)
 	(fp_text user "PCB EDGE"
 		(at 1.25 1.25 0)
@@ -845,6 +811,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "3ad1a6a1-2965-4c37-8c48-f65ef79c062f")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/3dmodels/6469028-1.step"
 		(offset
 			(xyz -10.795 18.161 0)

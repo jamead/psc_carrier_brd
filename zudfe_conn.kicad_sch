@@ -4231,6 +4231,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 168.91) (xy 337.82 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ba3918-cddc-4423-8e6a-0450956ba787")
+	)
+	(wire
+		(pts
 			(xy 76.2 77.47) (xy 93.98 77.47)
 		)
 		(stroke
@@ -6875,6 +6885,17 @@
 		)
 		(uuid "d8073c06-3087-4099-9254-02772417bec7")
 	)
+	(hierarchical_label "enb"
+		(shape input)
+		(at 283.21 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5f58d2e-a408-4eed-80af-965919658b84")
+	)
 	(hierarchical_label "ch1_dcct{cnv,busy,sck,sdo[1..0]}"
 		(shape input)
 		(at 186.69 71.12 180)
@@ -7019,7 +7040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CONN RCPT HIGH SPEED 60P EDGE MT"
 			(at 351.79 100.33 0)
 			(effects
 				(font
@@ -7065,6 +7086,33 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Cost" "17.37"
+			(at 351.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "TE"
+			(at 351.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "6469028-1"
+			(at 351.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7368,7 +7416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CONN RCPT HIGH SPEED 60P EDGE MT"
 			(at 107.95 100.33 0)
 			(effects
 				(font
@@ -7414,6 +7462,33 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Cost" "17.37"
+			(at 107.95 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "TE"
+			(at 107.95 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "6469028-1"
+			(at 107.95 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7651,7 +7726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CONN RCPT HIGH SPEED 60P EDGE MT"
 			(at 224.79 100.33 0)
 			(effects
 				(font
@@ -7697,6 +7772,33 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Cost" "17.37"
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "TE"
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "6469028-1"
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

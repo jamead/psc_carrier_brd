@@ -1,4 +1,4 @@
-26225818293144963
+26232963313921846
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104279,6 +104279,13 @@ DFN-8_DD
 9
 9
 myparts
+FUSE_SMDC300F&slash_24-2_LTF
+
+SMDC300F/24-2 
+0
+2
+2
+myparts
 IND_LSMG_160808_TAY
 
 LSMGG160808T331RG 
@@ -104293,9 +104300,23 @@ MOLEX_39301022
 2
 2
 myparts
+MSOP-8_MS_LIT
+
+LT6105CMS8-PBF 
+0
+8
+8
+myparts
 MSOP-16_MS
 
 
+0
+16
+16
+myparts
+PW16
+
+CD4504BMPWREP 
 0
 16
 16
@@ -104327,6 +104348,13 @@ TE_6469028-1
 0
 60
 60
+myparts
+TestPoint_RCS-0C
+Keystone SMT Micro Mini Test Point 5015, http://www.keyelco.com/product-pdf.cfm?p=1353
+Test Point
+0
+1
+1
 myparts
 burden
 
